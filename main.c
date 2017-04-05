@@ -1,8 +1,11 @@
-#include <studio.h>
-#include "util.h"
 
-int main (int argc, char **argv ) {
+#include "fibo.h"
+#include <stdio.h>
+#include <stdio.h>
 
-printf("tamaño: %d\n", filesize(argv[1]));
-return 0; 
+
+int main() {
+int a=0;
+a=fibo(10);
+printf("%d\n",a);
 }
